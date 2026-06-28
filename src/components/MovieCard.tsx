@@ -3,6 +3,7 @@ import type { Movie } from "../types"
 type Props = {
     movie: Movie
 }
+
 export default function MovieCard({ movie:
     { title, vote_average, poster_path, release_date, original_language }
 }: Props) {
@@ -25,7 +26,6 @@ export default function MovieCard({ movie:
                     </p>
                 </div>
             </div>
-
         </div>
     )
 }
